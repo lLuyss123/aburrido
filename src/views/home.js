@@ -2,7 +2,7 @@ import { navigateTo } from "../router/router.js";
 export function home() {
     return `
   
- <header class="font-sans text-blue-950 flex items-center justify-between h-20 pl-4 sm:pl-6 md:pl-10 pr-2 sm:pr-4 md:pr-8">
+ <header class="font-sans text-blue-950 flex items-center justify-between h-20 pl-4 sm:pl-6 md:pl-10 pr-2 sm:pr-4 md:pr-8 bg-gray-50">
     <figure class="w-60 flex items-center gap-4">
         <h1 class=" text-3xl font-bold">Barranquilla</h1>
         <img class="w-32" src="/src/assets/img/logo.png" alt="Logo">
