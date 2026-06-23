@@ -1,6 +1,6 @@
 import { navigateTo } from "../router/router.js";
 export function home() {
-  return `
+    return `
   
  <header class="font-sans text-blue-950 flex items-center justify-between h-20 pl-4 sm:pl-6 md:pl-10 pr-2 sm:pr-4 md:pr-8">
     <figure class="w-60 flex items-center gap-4">
@@ -19,12 +19,11 @@ export function home() {
         </nav>
     </header>
     <main>
-    <section class="hero w-full h-150 relative"> 
-        <img class="w-full h-full object-cover" src="/src/assets/img/hero.png" alt="Hero Image">
-        <p class="absolute bottom-1/4 right-6 text-white">
-        <span> Descubre la magia de </span><br>
-        <span> Barranquilla </span> <br>
-        <span> Explora, vive y disfruta todo lo que <br> nuestra ciudad tiene <b>para ti</b>. </span>
+    <section class="hero w-full h-130 relative"> 
+        <img class="w-full h-full object-cover" src="/src/assets/img/hero2.png" alt="Hero Image">
+        <p class="absolute bottom-1/2 left-1/9 text-blue-950">
+        <span class="font-medium text-5xl"> Descubre la magia. </span><br>
+        <span class="font-extralight text-lg" > Explora, vive y disfruta todo lo que <br> nuestra ciudad tiene <b>para ti</b>. </span>
         </p>
     </section>
 
@@ -36,4 +35,4 @@ export function home() {
     `;
 }
 
-export function homeEvents() {}
+export function homeEvents() { }
