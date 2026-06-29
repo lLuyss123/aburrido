@@ -291,9 +291,10 @@ export function home() {
 
 
 
-    <section> 
-    
-    
+    <section class="text-blue-900 font-medium text-2xl p-2 ml-10 mr-10 flex justify-center"> 
+        <img class="w-16 mb-4" src="/src/assets/img/chispitas2.png" alt="Icono de corazón" />
+        Barranquilla te espera. <b> Explora, vive <span class="text-red-600"> y comparte</span> </b> lo mejor de nuestra ciudad.
+        <img class="w-16 mb-4" src="/src/assets/img/chispitas_derecho.png" alt="Icono de corazón" />
     </section>
 
 
