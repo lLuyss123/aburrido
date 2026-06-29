@@ -28,7 +28,7 @@ export function home() {
       <section class="  HERO      w-full h-120 relative">
         <img
           class="w-full h-full object-cover"
-          src="/src/assets/img/hero2.png"
+          src="/src/assets/img/hero3.png"
           alt="Hero Image"
         />
         <p class="absolute bottom-1/2 left-1/9 text-blue-950">
