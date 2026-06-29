@@ -83,7 +83,7 @@ export function home() {
       </section>
 
       <section
-        class="     INFOICONS     max-w-full p-2 ml-10 mr-10 bg-gray-50 border border-gray-100 shadow-2xs shadow-gray-100 rounded-3xl text-blue-900 font-medium text-sm"
+        class="     INFOICONS     max-w-full p-2 ml-10 mr-10 bg-gray-50 border border-gray-200 rounded-3xl text-blue-900 font-medium text-sm"
       >
         <h2 class="font-medium text-2xl text-blue-900 pl-5">
           ¿Por qué usar Barranquilla explora?
@@ -207,10 +207,10 @@ export function home() {
 
           <article class="flex gap-2 items-center bg-gray-50 p-2 w-1/4 rounded-lg">
             <div
-              class="flex items-center justify-center w-15 h-17 shrink-0 rounded-full bg-blue-600"
+              class="flex items-center justify-center w-15 h-17 shrink-0 rounded-full bg-amber-100"
             >
               <img
-                src="/src/assets/img/places.svg"
+                src="/src/assets/img/store.svg"
                 alt="Sitios destacados"
                 class="w-8 h-8"
               />
