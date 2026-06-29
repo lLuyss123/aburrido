@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="font-sans text-blue-950 flex items-center justify-between h-20 pl-4 sm:pl-6 md:pl-10 pr-2 sm:pr-4 md:pr-8 bg-gray-50"
+    >
+      <figure class="w-60 flex items-center gap-4">
+        <h1 class="text-3xl font-bold">Barranquilla</h1>
+        <img class="w-32" src="/src/assets/img/logo.png" alt="Logo" />
+      </figure>
+      <nav class="">
+        <ul class="flex gap-4 font-medium">
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Destinos</a></li>
+          <li><a href="">Eventos</a></li>
+          <li><a href="">Nosotros</a></li>
+
+          <li>
+            <i class="fas fa-check-circle"></i> <a href="">Iniciar Sesión</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="w-full flex flex-col gap-4 font-sans">
+      <section class="hero w-full h-120 relative">
+        <img
+          class="w-full h-full object-cover"
+          src="/src/assets/img/hero2.png"
+          alt="Hero Image"
+        />
+        <p class="absolute bottom-1/2 left-1/9 text-blue-950">
+          <span class="font-medium text-5xl"> Descubre la magia. </span><br />
+          <span class="font-extralight text-lg">
+            Explora, vive y disfruta todo lo que <br />
+            nuestra ciudad tiene <b>para ti</b>.
+          </span>
+        </p>
+      </section>
+
+      <section class="flex max-w-full gap-4 p-2">
+        <aside class="h-70 w-1/2 bg-blue-100">
+          <figure class="flex items-center gap-3">
+            <div
+              class="flex h-7 w-7 items-center justify-center rounded-full bg-blue-800"
+            >
+              <img
+                class="h-4 w-4"
+                src="/src/assets/img/location.svg"
+                alt="Icono de sitios destacados"
+              />
+            </div>
+
+            <figcaption>
+              <h2 class="text-2xl font-bold text-blue-900">
+                Sitios Destacados
+              </h2>
+            </figcaption>
+          </figure>
+        </aside>
+
+        <aside class="h-70 w-1/2 bg-orange-100">
+          <figure class="flex items-center gap-3">
+            <div
+              class="flex h-7 w-7 items-center justify-center rounded-full bg-red-500"
+            >
+              <img
+                class="h-4 w-4"
+                src="/src/assets/img/calendar.svg"
+                alt="Icono de eventos destacados"
+              />
+            </div>
+
+            <figcaption>
+              <h2 class="text-2xl font-bold text-red-500">
+                Eventos Destacados
+              </h2>
+            </figcaption>
+          </figure>
+        </aside>
+      </section>
+
+      <section
+        class="max-w-full p-2 m-2 bg-gray-100 border border-gray-300 rounded-lg"
+      >
+        <h2 class="font-medium text-2xl text-blue-900">
+          ¿Por qué usar Barranquilla explora?
+        </h2>
+        <figure class="flex gap-4 items-center justify-between p-2">
+          <article class="flex gap-2 items-center bg-white p-2">
+            <div
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-blue-800 "
+            >
+              <img
+                src="/src/assets/img/mapa.svg"
+                alt="Sitios destacados"
+                class="w-12 h-12"
+              />
+            </div>
+
+            <p>
+              Descubre los mejores lugares y eventos de la ciudad de
+              Barranquilla, con información actualizada y recomendaciones de
+              expertos locales.
+            </p>
+          </article>
+        </figure>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
