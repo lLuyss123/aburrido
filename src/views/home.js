@@ -90,7 +90,7 @@ export function home() {
         </h2>
         <figure class="flex gap-4 items-center p-2">
 
-          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200">
+          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200  hover:bg-sky-50">
             <div
               class="flex items-center justify-center size-15 shrink-0 rounded-full bg-blue-600"
             >
@@ -105,7 +105,7 @@ export function home() {
             </p>
           </article>
 
-         <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200">
+         <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200  hover:bg-sky-50">
             <div
               class="flex items-center justify-center size-15 shrink-0 rounded-full bg-red-500"
             >
@@ -122,7 +122,7 @@ export function home() {
           </article>
 
 
-          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200">
+          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200  hover:bg-sky-50">
             <div
               class="flex items-center justify-center size-15 shrink-0 rounded-full bg-yellow-500"
             >
@@ -139,7 +139,7 @@ export function home() {
           </article>
 
 
-          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200">
+          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200  hover:bg-sky-50">
             <div
               class="flex items-center justify-center size-15 shrink-0 rounded-full bg-green-500"
             >
@@ -156,7 +156,7 @@ export function home() {
           </article>
 
 
-          <article class="flex gap-2 items-center bg-white  p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200 ">
+          <article class="flex gap-2 items-center bg-white  p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200  hover:bg-sky-50">
             <div
               class="flex items-center justify-center size-15 shrink-0 rounded-full bg-purple-500"
             >
@@ -173,7 +173,7 @@ export function home() {
           </article>
 
 
-          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200">
+          <article class="flex gap-2 items-center bg-white p-5 w-1/6 rounded-3xl shadow-lg shadow-gray-200  hover:bg-sky-50">
             <div
               class="flex items-center justify-center size-15 shrink-0 rounded-full bg-orange-500"
             >
@@ -187,6 +187,7 @@ export function home() {
             <p>
               Impulsa el turismo local y la visibilidad de emprendimientos.
             </p>
+            
           </article>
 
         </figure>
@@ -221,6 +222,11 @@ export function home() {
               Con cada visita y recomendación impulsas a emprendedores y comercios de nuestra ciudad.
             </p>
             </div>
+            <img
+                src="/src/assets/img/negocios_locales.webp"
+                alt="Sitios destacados"
+                class="size-26 object-cover rounded-xl"
+              />
           </article>
 
          <article class="flex gap-2 items-center bg-gray-50 p-2 w-1/4 rounded-lg">
@@ -239,6 +245,11 @@ export function home() {
               Conoce opiniones reales de viajeros y locales para tomar mejores decisiones.
             </p>
             </div>
+            <img
+                src="/src/assets/img/estrella2.png"
+                alt="Sitios destacados"
+                class="size-26 object-contain rounded-xl"
+              />
           </article>
 
 
@@ -260,6 +271,11 @@ export function home() {
               Rutas listas para que disfrutes lo mejor de Barranquilla en poco tiempo.
             </p>
             </div>
+            <img
+                src="/src/assets/img/itinerario.webp"
+                alt="Sitios destacados"
+                class="size-26 object-cover rounded-xl"
+              />
           </article>
 
 
@@ -281,6 +297,11 @@ export function home() {
               Planes para parejas, familia, amigos y aventureros. ¡Tú eliges cómo vivir la ciudad!
             </p>
             </div>
+            <img
+                src="/src/assets/img/familias.webp"
+                alt="Sitios destacados"
+                class="size-26 object-cover rounded-xl"
+              />
           </article>
 
 
